@@ -1,38 +1,50 @@
+/* Set up a pastel kawaii theme */
 .App {
-  text-align: center;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif; /* Cute, playful font */
+	background-color: #ffdfeb; /* Pastel pink background */
+	color: #5c9ead; /* Soft blue for the text */
+	padding: 20px;
+	border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for the profile image */
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid #ffb3c1; /* Soft pink border */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Button styling */
+button {
+	padding: 10px 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	background-color: #b3e5fc; /* Pastel baby blue */
+	border: none;
+	border-radius: 20px;
+	color: #ff4081; /* Bright pink text */
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Button hover effect */
+button:hover {
+	background-color: #ffb3c1; /* Pastel pink on hover */
+	color: #ffffff;
+	transform: scale(1.1); /* Slightly enlarges the button */
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the text inside profile */
+h1,
+p {
+	margin: 10px;
+	color: #7f7eff; /* Soft pastel purple text */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Timer text styling */
+.App p {
+	font-size: 14px;
+	color: #7f7eff; /* Keep timer in soft purple */
 }
